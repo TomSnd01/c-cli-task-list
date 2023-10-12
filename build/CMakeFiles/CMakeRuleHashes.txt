@@ -1,2 +1,3 @@
 # Hashes of file build rules.
+76ae1363c6e8720fed380b1d251e6db7 C:/Users/tomig/Desktop/dev/c-cli-task-list/argtable3/dist/argtable3.c
 375fc15fcb623aa6a0a3e85deb2a06e0 jansson/CMakeFiles/check

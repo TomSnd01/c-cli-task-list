@@ -69,6 +69,7 @@ include CMakeFiles/main.dir/progress.make
 include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/includes_C.rsp
 CMakeFiles/main.dir/main.c.obj: C:/Users/tomig/Desktop/dev/c-cli-task-list/main.c
 CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.obj"
@@ -92,6 +93,7 @@ main_EXTERNAL_OBJECTS =
 main.exe: CMakeFiles/main.dir/main.c.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: jansson/lib/libjansson.a
+main.exe: argtable3/src/libargtable3_static.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt

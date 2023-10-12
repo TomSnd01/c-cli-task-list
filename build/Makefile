@@ -446,6 +446,162 @@ check/fast:
 	$(MAKE) $(MAKESILENT) -f jansson\CMakeFiles\check.dir\build.make jansson/CMakeFiles/check.dir/build
 .PHONY : check/fast
 
+#=============================================================================
+# Target rules for targets named argtable3
+
+# Build rule for target.
+argtable3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 argtable3
+.PHONY : argtable3
+
+# fast build rule for target.
+argtable3/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\src\CMakeFiles\argtable3.dir\build.make argtable3/src/CMakeFiles/argtable3.dir/build
+.PHONY : argtable3/fast
+
+#=============================================================================
+# Target rules for targets named echo
+
+# Build rule for target.
+echo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 echo
+.PHONY : echo
+
+# fast build rule for target.
+echo/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\echo.dir\build.make argtable3/examples/CMakeFiles/echo.dir/build
+.PHONY : echo/fast
+
+#=============================================================================
+# Target rules for targets named ls
+
+# Build rule for target.
+ls: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ls
+.PHONY : ls
+
+# fast build rule for target.
+ls/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\ls.dir\build.make argtable3/examples/CMakeFiles/ls.dir/build
+.PHONY : ls/fast
+
+#=============================================================================
+# Target rules for targets named multisyntax
+
+# Build rule for target.
+multisyntax: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 multisyntax
+.PHONY : multisyntax
+
+# fast build rule for target.
+multisyntax/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\multisyntax.dir\build.make argtable3/examples/CMakeFiles/multisyntax.dir/build
+.PHONY : multisyntax/fast
+
+#=============================================================================
+# Target rules for targets named mv
+
+# Build rule for target.
+mv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mv
+.PHONY : mv
+
+# fast build rule for target.
+mv/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\mv.dir\build.make argtable3/examples/CMakeFiles/mv.dir/build
+.PHONY : mv/fast
+
+#=============================================================================
+# Target rules for targets named myprog
+
+# Build rule for target.
+myprog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 myprog
+.PHONY : myprog
+
+# fast build rule for target.
+myprog/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\myprog.dir\build.make argtable3/examples/CMakeFiles/myprog.dir/build
+.PHONY : myprog/fast
+
+#=============================================================================
+# Target rules for targets named myprog_C89
+
+# Build rule for target.
+myprog_C89: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 myprog_C89
+.PHONY : myprog_C89
+
+# fast build rule for target.
+myprog_C89/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\myprog_C89.dir\build.make argtable3/examples/CMakeFiles/myprog_C89.dir/build
+.PHONY : myprog_C89/fast
+
+#=============================================================================
+# Target rules for targets named testargtable3
+
+# Build rule for target.
+testargtable3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testargtable3
+.PHONY : testargtable3
+
+# fast build rule for target.
+testargtable3/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\testargtable3.dir\build.make argtable3/examples/CMakeFiles/testargtable3.dir/build
+.PHONY : testargtable3/fast
+
+#=============================================================================
+# Target rules for targets named uname
+
+# Build rule for target.
+uname: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uname
+.PHONY : uname
+
+# fast build rule for target.
+uname/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\uname.dir\build.make argtable3/examples/CMakeFiles/uname.dir/build
+.PHONY : uname/fast
+
+#=============================================================================
+# Target rules for targets named test_static
+
+# Build rule for target.
+test_static: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_static
+.PHONY : test_static
+
+# fast build rule for target.
+test_static/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\tests\CMakeFiles\test_static.dir\build.make argtable3/tests/CMakeFiles/test_static.dir/build
+.PHONY : test_static/fast
+
+#=============================================================================
+# Target rules for targets named test_src
+
+# Build rule for target.
+test_src: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_src
+.PHONY : test_src
+
+# fast build rule for target.
+test_src/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\tests\CMakeFiles\test_src.dir\build.make argtable3/tests/CMakeFiles/test_src.dir/build
+.PHONY : test_src/fast
+
+#=============================================================================
+# Target rules for targets named test_amalgamation
+
+# Build rule for target.
+test_amalgamation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_amalgamation
+.PHONY : test_amalgamation
+
+# fast build rule for target.
+test_amalgamation/fast:
+	$(MAKE) $(MAKESILENT) -f argtable3\tests\CMakeFiles\test_amalgamation.dir\build.make argtable3/tests/CMakeFiles/test_amalgamation.dir/build
+.PHONY : test_amalgamation/fast
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -483,10 +639,18 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... check
+	@echo ... argtable3
+	@echo ... echo
 	@echo ... jansson
 	@echo ... json_process
+	@echo ... ls
 	@echo ... main
+	@echo ... multisyntax
+	@echo ... mv
+	@echo ... myprog
+	@echo ... myprog_C89
 	@echo ... simple_parse
+	@echo ... test_amalgamation
 	@echo ... test_array
 	@echo ... test_chaos
 	@echo ... test_copy
@@ -503,7 +667,11 @@ help:
 	@echo ... test_pack
 	@echo ... test_simple
 	@echo ... test_sprintf
+	@echo ... test_src
+	@echo ... test_static
 	@echo ... test_unpack
+	@echo ... testargtable3
+	@echo ... uname
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

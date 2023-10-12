@@ -4,7 +4,7 @@
 # compile C with C:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = @CMakeFiles/main.dir/includes_C.rsp
 
 C_FLAGS = 
 
