@@ -161,17 +161,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named c-task
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
+c-task: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 c-task
+.PHONY : c-task
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+c-task/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/build
+.PHONY : c-task/fast
 
 #=============================================================================
 # Target rules for targets named jansson
@@ -607,7 +607,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -615,7 +615,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -623,7 +623,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -640,11 +640,11 @@ help:
 	@echo ... rebuild_cache
 	@echo ... check
 	@echo ... argtable3
+	@echo ... c-task
 	@echo ... echo
 	@echo ... jansson
 	@echo ... json_process
 	@echo ... ls
-	@echo ... main
 	@echo ... multisyntax
 	@echo ... mv
 	@echo ... myprog

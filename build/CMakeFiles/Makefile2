@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\tomig\Desktop\dev\c-cli-task-list\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/c-task.dir/all
 all: jansson/all
 all: argtable3/all
 .PHONY : all
@@ -73,7 +73,7 @@ preinstall: argtable3/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/c-task.dir/clean
 clean: jansson/clean
 clean: argtable3/clean
 .PHONY : clean
@@ -217,31 +217,31 @@ jansson/clean: jansson/CMakeFiles/check.dir/clean
 .PHONY : jansson/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/c-task.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: jansson/CMakeFiles/jansson.dir/all
-CMakeFiles/main.dir/all: argtable3/src/CMakeFiles/argtable3.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=25,26 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/c-task.dir/all: jansson/CMakeFiles/jansson.dir/all
+CMakeFiles/c-task.dir/all: argtable3/src/CMakeFiles/argtable3.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=12 "Built target c-task"
+.PHONY : CMakeFiles/c-task.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+CMakeFiles/c-task.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/c-task.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/c-task.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+c-task: CMakeFiles/c-task.dir/rule
+.PHONY : c-task
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/c-task.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/clean
+.PHONY : CMakeFiles/c-task.dir/clean
 
 #=============================================================================
 # Target rules for target jansson/CMakeFiles/jansson.dir
@@ -250,7 +250,7 @@ CMakeFiles/main.dir/clean:
 jansson/CMakeFiles/jansson.dir/all:
 	$(MAKE) $(MAKESILENT) -f jansson\CMakeFiles\jansson.dir\build.make jansson/CMakeFiles/jansson.dir/depend
 	$(MAKE) $(MAKESILENT) -f jansson\CMakeFiles\jansson.dir\build.make jansson/CMakeFiles/jansson.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21 "Built target jansson"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23 "Built target jansson"
 .PHONY : jansson/CMakeFiles/jansson.dir/all
 
 # Build rule for subdir invocation for target.
@@ -744,12 +744,12 @@ jansson/CMakeFiles/test_memory_funcs.dir/clean:
 jansson/CMakeFiles/json_process.dir/all: jansson/CMakeFiles/jansson.dir/all
 	$(MAKE) $(MAKESILENT) -f jansson\CMakeFiles\json_process.dir\build.make jansson/CMakeFiles/json_process.dir/depend
 	$(MAKE) $(MAKESILENT) -f jansson\CMakeFiles\json_process.dir\build.make jansson/CMakeFiles/json_process.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=22,23 "Built target json_process"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=24 "Built target json_process"
 .PHONY : jansson/CMakeFiles/json_process.dir/all
 
 # Build rule for subdir invocation for target.
 jansson/CMakeFiles/json_process.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 jansson/CMakeFiles/json_process.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 0
 .PHONY : jansson/CMakeFiles/json_process.dir/rule
@@ -776,15 +776,15 @@ jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_equal.dir/all
 jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_fixed_size.dir/all
 jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_load.dir/all
 jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_loadb.dir/all
-jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_object.dir/all
-jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/json_process.dir/all
 jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_load_callback.dir/all
-jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_memory_funcs.dir/all
-jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_sprintf.dir/all
-jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_unpack.dir/all
-jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_number.dir/all
-jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_pack.dir/all
 jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_simple.dir/all
+jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_pack.dir/all
+jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_sprintf.dir/all
+jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/json_process.dir/all
+jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_memory_funcs.dir/all
+jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_number.dir/all
+jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_object.dir/all
+jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_unpack.dir/all
 	$(MAKE) $(MAKESILENT) -f jansson\CMakeFiles\check.dir\build.make jansson/CMakeFiles/check.dir/depend
 	$(MAKE) $(MAKESILENT) -f jansson\CMakeFiles\check.dir\build.make jansson/CMakeFiles/check.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num= "Built target check"
@@ -792,7 +792,7 @@ jansson/CMakeFiles/check.dir/all: jansson/CMakeFiles/test_simple.dir/all
 
 # Build rule for subdir invocation for target.
 jansson/CMakeFiles/check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 jansson/CMakeFiles/check.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 0
 .PHONY : jansson/CMakeFiles/check.dir/rule
@@ -839,12 +839,12 @@ argtable3/src/CMakeFiles/argtable3.dir/clean:
 argtable3/examples/CMakeFiles/echo.dir/all: argtable3/src/CMakeFiles/argtable3.dir/all
 	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\echo.dir\build.make argtable3/examples/CMakeFiles/echo.dir/depend
 	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\echo.dir\build.make argtable3/examples/CMakeFiles/echo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=12 "Built target echo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=13,14 "Built target echo"
 .PHONY : argtable3/examples/CMakeFiles/echo.dir/all
 
 # Build rule for subdir invocation for target.
 argtable3/examples/CMakeFiles/echo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 argtable3/examples/CMakeFiles/echo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 0
 .PHONY : argtable3/examples/CMakeFiles/echo.dir/rule
@@ -865,12 +865,12 @@ argtable3/examples/CMakeFiles/echo.dir/clean:
 argtable3/examples/CMakeFiles/ls.dir/all: argtable3/src/CMakeFiles/argtable3.dir/all
 	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\ls.dir\build.make argtable3/examples/CMakeFiles/ls.dir/depend
 	$(MAKE) $(MAKESILENT) -f argtable3\examples\CMakeFiles\ls.dir\build.make argtable3/examples/CMakeFiles/ls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=24 "Built target ls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles --progress-num=25,26 "Built target ls"
 .PHONY : argtable3/examples/CMakeFiles/ls.dir/all
 
 # Build rule for subdir invocation for target.
 argtable3/examples/CMakeFiles/ls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 argtable3/examples/CMakeFiles/ls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tomig\Desktop\dev\c-cli-task-list\build\CMakeFiles 0
 .PHONY : argtable3/examples/CMakeFiles/ls.dir/rule

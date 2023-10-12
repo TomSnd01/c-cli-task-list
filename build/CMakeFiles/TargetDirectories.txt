@@ -1,4 +1,4 @@
-C:/Users/tomig/Desktop/dev/c-cli-task-list/build/CMakeFiles/main.dir
+C:/Users/tomig/Desktop/dev/c-cli-task-list/build/CMakeFiles/c-task.dir
 C:/Users/tomig/Desktop/dev/c-cli-task-list/build/CMakeFiles/edit_cache.dir
 C:/Users/tomig/Desktop/dev/c-cli-task-list/build/CMakeFiles/rebuild_cache.dir
 C:/Users/tomig/Desktop/dev/c-cli-task-list/build/CMakeFiles/list_install_components.dir

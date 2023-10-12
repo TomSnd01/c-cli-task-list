@@ -87,7 +87,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/c-task.dir/DependInfo.cmake"
   "jansson/CMakeFiles/jansson.dir/DependInfo.cmake"
   "jansson/CMakeFiles/simple_parse.dir/DependInfo.cmake"
   "jansson/CMakeFiles/test_array.dir/DependInfo.cmake"
