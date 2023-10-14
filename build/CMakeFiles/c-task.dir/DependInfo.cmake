@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/tomig/Desktop/dev/c-cli-task-list/config.c" "CMakeFiles/c-task.dir/config.c.obj" "gcc" "CMakeFiles/c-task.dir/config.c.obj.d"
   "C:/Users/tomig/Desktop/dev/c-cli-task-list/main.c" "CMakeFiles/c-task.dir/main.c.obj" "gcc" "CMakeFiles/c-task.dir/main.c.obj.d"
   )
 

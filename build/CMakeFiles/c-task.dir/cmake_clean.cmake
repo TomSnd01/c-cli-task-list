@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/c-task.dir/config.c.obj"
+  "CMakeFiles/c-task.dir/config.c.obj.d"
   "CMakeFiles/c-task.dir/main.c.obj"
   "CMakeFiles/c-task.dir/main.c.obj.d"
   "c-task.exe"

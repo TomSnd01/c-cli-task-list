@@ -1,6 +1,6 @@
 #include <string.h>
-#include <jansson.h>
 #include <argtable3.h>
+#include "config.h"
 
 struct arg_lit *help, *version;
 struct arg_file *dir;
@@ -26,8 +26,12 @@ int main(int argc, char **argv) {
     }
 
     if(dir->count > 0) {
-        printf("dir: %s\n", dir->filename[0]);
-        exitcode = 0;
+        if(dir->filename[0]) {
+            exitcode = config_write(dir->filename[0]);
+        }
+        else {
+            exitcode = config_read();
+        }
         goto exit;
     } 
     if (help->count > 0) {
@@ -44,10 +48,8 @@ int main(int argc, char **argv) {
         goto exit;
     }
 
-    printf("not exit");
 
 exit:
     arg_freetable(argtable, sizeof(argtable) / sizeof(argtable[0]));
-    printf("exit");
     return exitcode;
 }

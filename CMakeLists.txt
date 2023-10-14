@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 project(c-cli-task-list)
 
-add_executable(c-task main.c)
+add_executable(c-task main.c config.c)
 
 add_subdirectory(jansson)
 add_subdirectory(argtable3)

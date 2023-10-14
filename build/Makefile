@@ -602,6 +602,30 @@ test_amalgamation/fast:
 	$(MAKE) $(MAKESILENT) -f argtable3\tests\CMakeFiles\test_amalgamation.dir\build.make argtable3/tests/CMakeFiles/test_amalgamation.dir/build
 .PHONY : test_amalgamation/fast
 
+config.obj: config.c.obj
+.PHONY : config.obj
+
+# target to build an object file
+config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/config.c.obj
+.PHONY : config.c.obj
+
+config.i: config.c.i
+.PHONY : config.i
+
+# target to preprocess a source file
+config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/config.c.i
+.PHONY : config.c.i
+
+config.s: config.c.s
+.PHONY : config.s
+
+# target to generate assembly for a file
+config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c-task.dir\build.make CMakeFiles/c-task.dir/config.c.s
+.PHONY : config.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -672,6 +696,9 @@ help:
 	@echo ... test_unpack
 	@echo ... testargtable3
 	@echo ... uname
+	@echo ... config.obj
+	@echo ... config.i
+	@echo ... config.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
